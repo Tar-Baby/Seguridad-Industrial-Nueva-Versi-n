@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 305778349}
   - component: {fileID: 305778348}
   - component: {fileID: 305778347}
-  - component: {fileID: 305778346}
   m_Layer: 2
   m_Name: "Men\xFARespuestaIncorrecta"
   m_TagString: Untagged
@@ -102,18 +101,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &305778346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305778344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a290f91d5965314d8f38384b3a95536, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &524425071
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,7 +695,6 @@ GameObject:
   - component: {fileID: 1749844265}
   - component: {fileID: 1749844264}
   - component: {fileID: 1749844263}
-  - component: {fileID: 1749844262}
   m_Layer: 2
   m_Name: "Men\xFARespuestaCorrecta"
   m_TagString: Untagged
@@ -798,18 +784,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1749844262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1749844260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a290f91d5965314d8f38384b3a95536, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5187433533451315840
 GameObject:
   m_ObjectHideFlags: 0
