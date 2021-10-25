@@ -14,7 +14,6 @@ namespace _Mis_Scripts.Menú_Reportar
             menúReportar.SetActive(false);
             menúRespuestaCorrecta.SetActive(false);
             menúRespuestaIncorrecta.SetActive(false);
-            
             this.gameObject.SetActive(false);
         }
     }
