@@ -5,7 +5,7 @@ namespace _Mis_Scripts.Menú_Reportar
 {
     public class RespuestaCorrecta : MonoBehaviour
     {
-        // Variable r = Respuesta Correcta
+        // Variable respuesta = Respuesta Correcta
         [SerializeField] private int respuesta;
         [SerializeField] private GameObject menúReportar;
         [SerializeField] private GameObject menúRespuestaCorrecta;
