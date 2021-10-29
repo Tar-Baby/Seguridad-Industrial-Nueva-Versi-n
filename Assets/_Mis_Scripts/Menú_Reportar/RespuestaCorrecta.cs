@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace _Mis_Scripts.Menú_Reportar
@@ -28,6 +27,7 @@ namespace _Mis_Scripts.Menú_Reportar
             if (respuestaCorrecta == respuesta)
             {
                 Debug.Log("Respuesta Correcta");
+                PuntajesGlobales.correcta++;
                 menúReportar.SetActive(false);
                 menúRespuestaCorrecta.SetActive(true);
                 menúRespuestaIncorrecta.SetActive(false);
@@ -35,6 +35,7 @@ namespace _Mis_Scripts.Menú_Reportar
             else
             {
                 Debug.Log("Respuesta Incorrecta");
+                PuntajesGlobales.incorrecta++;
                 menúReportar.SetActive(false);
                 menúRespuestaIncorrecta.SetActive(true);
                 menúRespuestaCorrecta.SetActive(false);
