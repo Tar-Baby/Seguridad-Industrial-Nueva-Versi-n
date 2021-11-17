@@ -32,7 +32,7 @@ RectTransform:
   m_Children:
   - {fileID: 1326691968}
   - {fileID: 1099682537}
-  m_Father: {fileID: 5187433534204762372}
+  m_Father: {fileID: 8019775486290070941}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -503,14 +503,13 @@ GameObject:
   m_Component:
   - component: {fileID: 879156758}
   - component: {fileID: 879156759}
-  - component: {fileID: 879156760}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: "\xC1rea de activaci\xF3n"
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &879156758
 Transform:
   m_ObjectHideFlags: 0
@@ -523,7 +522,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5187433534204762372}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &879156759
 BoxCollider:
@@ -536,23 +535,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.9295063, y: 2.43, z: 5.901194}
-  m_Center: {x: 0.56268835, y: 0, z: -0.74934936}
---- !u!114 &879156760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879156757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea1dd244854b4bb468de23a75d9b5155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "men\xFAReportar": {fileID: 5187433533738518086}
-  "men\xFARespuestaCorrecta": {fileID: 1749844260}
-  "men\xFARespuestaIncorrecta": {fileID: 305778344}
+  m_Size: {x: 6.202846, y: 7.1, z: 9.028609}
+  m_Center: {x: -0.99142337, y: 0, z: 0.6943046}
 --- !u!1 &1099682536
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,7 +723,7 @@ RectTransform:
   m_Children:
   - {fileID: 762739340}
   - {fileID: 780729181}
-  m_Father: {fileID: 5187433534204762372}
+  m_Father: {fileID: 8019775486290070941}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -808,6 +792,39 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &4085010728090132197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8019775486290070941}
+  m_Layer: 0
+  m_Name: "ContenedorMen\xFAReportar"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8019775486290070941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085010728090132197}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5187433533738518082}
+  - {fileID: 1749844261}
+  - {fileID: 305778345}
+  m_Father: {fileID: 5187433534204762372}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &5187433533451315840
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,7 +936,7 @@ RectTransform:
   m_Children:
   - {fileID: 5187433534308552538}
   - {fileID: 524425072}
-  m_Father: {fileID: 5187433534204762372}
+  m_Father: {fileID: 8019775486290070941}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1153,9 +1170,7 @@ Transform:
   m_LocalPosition: {x: -0.517, y: 0.54, z: 2.302}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5187433533738518082}
-  - {fileID: 1749844261}
-  - {fileID: 305778345}
+  - {fileID: 8019775486290070941}
   - {fileID: 879156758}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1234,14 +1249,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744b3611da944e54da5e532e02ae2454, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxDistance: 100
+  MaxDistance: 7
   Enabled: 1
   OnPointerClickEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5187433533738518086}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+      - m_Target: {fileID: 5187433534204762374}
+        m_TargetAssemblyTypeName: "_Mis_Scripts.Men\xFA_Reportar.RespuestaCorrecta,
+          Assembly-CSharp"
+        m_MethodName: "InstanciarMen\xFA"
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1287,10 +1303,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5bc2e2157adcb428a12eee32663781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  "contenedorMen\xFAReportar": {fileID: 4085010728090132197}
+  menuReportar: {fileID: 5187433533738518086}
+  menuRespuestaCorrecta: {fileID: 1749844260}
+  menuRespuestaIncorrecta: {fileID: 305778344}
+  areaDeActivacion: {fileID: 879156757}
   respuesta: 1
-  "men\xFAReportar": {fileID: 5187433533738518086}
-  "men\xFARespuestaCorrecta": {fileID: 1749844260}
-  "men\xFARespuestaIncorrecta": {fileID: 305778344}
+  activarMenu: 0
 --- !u!1 &5187433534308552537
 GameObject:
   m_ObjectHideFlags: 0

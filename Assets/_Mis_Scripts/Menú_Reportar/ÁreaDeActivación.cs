@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace _Mis_Scripts.Menú_Reportar
@@ -8,7 +9,6 @@ namespace _Mis_Scripts.Menú_Reportar
         [SerializeField] private GameObject menúRespuestaCorrecta;
         [SerializeField] private GameObject menúRespuestaIncorrecta;
         
-
         private void OnTriggerExit(Collider other)
         {
             menúReportar.SetActive(false);
