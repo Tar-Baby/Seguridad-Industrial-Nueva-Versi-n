@@ -561,6 +561,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1181225592}
+    - target: {fileID: 879156757, guid: 687f18010823be34194a48fc7ccdd8fc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1749844265, guid: 687f18010823be34194a48fc7ccdd8fc, type: 3}
       propertyPath: m_Camera
       value: 
@@ -570,6 +574,16 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1181225592}
+    - target: {fileID: 5187433533738518086, guid: 687f18010823be34194a48fc7ccdd8fc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5187433533738518087, guid: 687f18010823be34194a48fc7ccdd8fc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5187433534204762372, guid: 687f18010823be34194a48fc7ccdd8fc,
         type: 3}
       propertyPath: m_RootOrder
