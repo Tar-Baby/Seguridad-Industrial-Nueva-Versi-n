@@ -503,13 +503,14 @@ GameObject:
   m_Component:
   - component: {fileID: 879156758}
   - component: {fileID: 879156759}
+  - component: {fileID: 1902285882732478949}
   m_Layer: 2
   m_Name: "\xC1rea de activaci\xF3n"
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &879156758
 Transform:
   m_ObjectHideFlags: 0
@@ -537,6 +538,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.202846, y: 7.1, z: 9.028609}
   m_Center: {x: -0.99142337, y: 0, z: 0.6943046}
+--- !u!114 &1902285882732478949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879156757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea1dd244854b4bb468de23a75d9b5155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "men\xFAReportar": {fileID: 5187433533738518086}
+  "men\xFARespuestaCorrecta": {fileID: 1749844260}
+  "men\xFARespuestaIncorrecta": {fileID: 305778344}
 --- !u!1 &1099682536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1190,7 +1206,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5187433534204762376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
