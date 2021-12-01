@@ -5,7 +5,6 @@ namespace _Mis_Scripts
 {
     public class ContadorTiempo : MonoBehaviour
     {
-
         [SerializeField] private float temporizador;
         [SerializeField] private Text textoTiempo;
     
