@@ -7229,6 +7229,7 @@ Transform:
   - {fileID: 932589404}
   - {fileID: 1173458224}
   - {fileID: 709299594}
+  - {fileID: 1227097699}
   - {fileID: 44963702}
   - {fileID: 163368115}
   - {fileID: 239619773}
@@ -7268,7 +7269,6 @@ Transform:
   - {fileID: 401253676}
   - {fileID: 2131459609}
   - {fileID: 604696062}
-  - {fileID: 1227097699}
   - {fileID: 14484817}
   - {fileID: 1109742981}
   - {fileID: 1710740903}
@@ -8480,8 +8480,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -3.6827, y: -2.47}
+  m_AnchoredPosition: {x: 0, y: 34.03}
+  m_SizeDelta: {x: -3.68, y: 6.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1146301479
 MonoBehaviour:
@@ -8516,7 +8516,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bienvenidos al simulador de seguridad Industrial
+  m_Text: "Bienvenidos al simulador de seguridad Industrial, apunta a este men\xFA
+    con un mando y presiona el gatillo derecho \"RT\" o el gatillo izquierdo \"LT\"
+    para continuar."
 --- !u!222 &1146301480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9269,7 +9271,7 @@ Transform:
   - {fileID: 925207432}
   - {fileID: 33471399}
   m_Father: {fileID: 910172258}
-  m_RootOrder: 191
+  m_RootOrder: 152
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1227150852
 PrefabInstance:
@@ -12475,7 +12477,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665621190}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.263}
+  m_LocalPosition: {x: 0, y: 0, z: -2.323}
   m_LocalScale: {x: 0.005, y: 0.005, z: 1}
   m_Children:
   - {fileID: 2097642234}
@@ -12485,8 +12487,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -5.1399994, y: 1.466}
-  m_SizeDelta: {x: 268.5, y: 179.9}
+  m_AnchoredPosition: {x: -5.1641, y: 1.6318}
+  m_SizeDelta: {x: 365.0166, y: 246.2131}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665621195
 MonoBehaviour:
