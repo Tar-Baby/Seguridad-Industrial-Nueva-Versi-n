@@ -10,7 +10,7 @@ namespace _Mis_Scripts.Menú_Reportar
         [SerializeField] private GameObject contenedorMenúReportar;
         [SerializeField] private GameObject menuReportar;
         [SerializeField] private GameObject menuRespuestaCorrecta;
-        [SerializeField] private GameObject menuRespuestaIncorrecta;
+        //[SerializeField] private GameObject menuRespuestaIncorrecta;
         [SerializeField] private GameObject areaDeActivacion;
         [SerializeField] private int respuesta;
         [SerializeField] private bool activarMenu;
@@ -21,7 +21,7 @@ namespace _Mis_Scripts.Menú_Reportar
             activarMenu = true;
             menuReportar.SetActive(false);
             menuRespuestaCorrecta.SetActive(false);
-            menuRespuestaIncorrecta.SetActive(false);
+            //menuRespuestaIncorrecta.SetActive(false);
             areaDeActivacion.SetActive(false);
         }
 
@@ -43,7 +43,7 @@ namespace _Mis_Scripts.Menú_Reportar
                 activarMenu = false;
                 menuReportar.SetActive(false);
                 menuRespuestaCorrecta.SetActive(true);
-                menuRespuestaIncorrecta.SetActive(false);
+                //menuRespuestaIncorrecta.SetActive(false);
             }
             else
             {
@@ -52,7 +52,7 @@ namespace _Mis_Scripts.Menú_Reportar
                 activarMenu = false;
                 menuReportar.SetActive(false);
                 menuRespuestaCorrecta.SetActive(false);
-                menuRespuestaIncorrecta.SetActive(true);
+                //menuRespuestaIncorrecta.SetActive(true);
             }
         }
         public void InstanciarMenú(bool respuestaRegistrada = true)
