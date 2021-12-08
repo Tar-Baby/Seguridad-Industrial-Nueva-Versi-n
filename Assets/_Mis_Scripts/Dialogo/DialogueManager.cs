@@ -21,12 +21,17 @@ public class DialogueManager : MonoBehaviour
     private static DialogueManager instance;
 
     private void Awake()
-    {
+    {/*
         if (instance != null)
         {
             Debug.LogWarning("Found more than one Dialogue Manager in the scene");
         }
-        instance = this;
+        instance = this;*/
+    }
+
+    public void ImprimirContador()
+    {
+        Debug.Log("Contador: " + AnimatorMnager.contador);
     }
 
     private void Start()
@@ -43,13 +48,14 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void EnterDialogueMode(TextAsset inkJSON)
+    public void EnterDialogueMode(TextAsset inkJSON) // al entrar el contador aumenta 1
     {
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
+        ImprimirContador();
 
-        ContinueStory();
+        ContinueStory(); 
 
     }
 
@@ -85,10 +91,13 @@ public class DialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             dialogueText.text = currentStory.Continue();
+            AnimatorMnager.contador++;
             DisplayChoices();
+            ImprimirContador();
         }
         else
         {
+            AnimatorMnager.contador = 0;
             ExitDialogueMode();   //mantener comentada para pruebas
         }
     }
@@ -131,5 +140,7 @@ public class DialogueManager : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(choices[0].gameObject);
     } 
 
+
     //recordatorio revisar si al presionar en el personaje de nuevo se reinicia el dialogo min20 de video
+    //En vez del Dialogue Trigger esta el On Click Event
 }
