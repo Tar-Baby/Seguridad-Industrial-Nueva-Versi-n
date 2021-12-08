@@ -14,15 +14,16 @@ namespace _Mis_Scripts.Menú_Reportar
         [SerializeField] private GameObject areaDeActivacion;
         [SerializeField] private int respuesta;
         [SerializeField] private bool activarMenu;
-        
+        private int menuActivo;
         //Los objetos inician activos en Unity, pero se desactivan en el script para solucionar un error
         private void Start()
         {
+            menuActivo = 0;
             activarMenu = true;
             menuReportar.SetActive(false);
             menuRespuestaCorrecta.SetActive(false);
             //menuRespuestaIncorrecta.SetActive(false);
-            areaDeActivacion.SetActive(false);
+            areaDeActivacion.SetActive(true);
         }
 
         private void Update()
@@ -47,8 +48,8 @@ namespace _Mis_Scripts.Menú_Reportar
             }
             else
             {
-                PuntajesGlobales.incorrecta++;
-                Debug.Log("Respuesta Incorrecta: " + PuntajesGlobales.incorrecta);
+                //PuntajesGlobales.incorrecta++;
+                //Debug.Log("Respuesta Incorrecta: " + PuntajesGlobales.incorrecta);
                 activarMenu = false;
                 menuReportar.SetActive(false);
                 menuRespuestaCorrecta.SetActive(false);
@@ -57,10 +58,11 @@ namespace _Mis_Scripts.Menú_Reportar
         }
         public void InstanciarMenú(bool respuestaRegistrada = true)
         {
-            if (activarMenu == respuestaRegistrada)
+            if (activarMenu == respuestaRegistrada && menuActivo < 1)
             {
                 Instantiate(menuReportar, player.position, player.rotation);
                 menuReportar.SetActive(true);
+                menuActivo++;
             }
         }
     }

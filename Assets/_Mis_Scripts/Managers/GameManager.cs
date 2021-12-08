@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         PuntajesGlobales.correcta = 0;
-        PuntajesGlobales.incorrecta = 0;
+        //PuntajesGlobales.incorrecta = 0;
     }
 
     // Update is called once per frame
