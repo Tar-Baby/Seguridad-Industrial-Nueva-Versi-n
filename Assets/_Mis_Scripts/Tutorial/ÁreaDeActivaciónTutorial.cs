@@ -15,7 +15,7 @@ namespace _Mis_Scripts.Tutorial
         private void OnTriggerExit(Collider other)
         {
             menúTutorial.SetActive(false);
-            this.gameObject.SetActive(false);
+            
         }
     }
 }
