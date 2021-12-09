@@ -13,12 +13,14 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
+    [SerializeField] private GameObject boxCollider;
+
     private TextMeshProUGUI[] choicesText;
 
     private Story currentStory;
     public bool dialogueIsPlaying { get; private set; }
 
-    private static DialogueManager instance;
+  //  private static DialogueManager instance;
 
     private void Awake()
     {/*
@@ -50,6 +52,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EnterDialogueMode(TextAsset inkJSON) // al entrar el contador aumenta 1
     {
+        boxCollider.GetComponent<BoxCollider>().enabled = false; // Para que no se pueda interactuar con el NPC durante un dialogo
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
@@ -59,11 +62,20 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    private void ExitDialogueMode()
+    public void ExitDialogueMode() // NO puedo volver a interactuar con la persona
     {
+        AnimatorMnager.contador = 0;
+        Debug.Log("Conversacion terminada");
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
+
+    }
+
+    public void ExitDialogueModeAltX()  // Puedo volver a interactuar con la persona, la X
+    {
+        ExitDialogueMode();
+        boxCollider.GetComponent<BoxCollider>().enabled = true;
 
     }
 
@@ -74,16 +86,6 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-         /* if(InputManager.GetInstance().GetSubmitPressed())
-          {
-
-          }*/
-
-     /*   if(BNG.InputBridge.Instance.LeftTrigger == 1 || BNG.InputBridge.Instance.RightTrigger == 1)
-        {
-            ContinueStory();
-
-        }*/
     }
 
     public void ContinueStory()
@@ -94,10 +96,11 @@ public class DialogueManager : MonoBehaviour
             AnimatorMnager.contador++;
             DisplayChoices();
             ImprimirContador();
+            Debug.Log("Conversacion continua");
         }
-        else
+        else  //cuando ya no hay mas opciones que elegir
         {
-            AnimatorMnager.contador = 0;
+            
             ExitDialogueMode();   //mantener comentada para pruebas
         }
     }
@@ -124,7 +127,7 @@ public class DialogueManager : MonoBehaviour
             choices[i].gameObject.SetActive(false);
         }
 
-        StartCoroutine(SelectFirstChoice());
+     //   StartCoroutine(SelectFirstChoice());
     }
 
     public void MakeChoice(int choiceIndex)
@@ -132,15 +135,50 @@ public class DialogueManager : MonoBehaviour
         currentStory.ChooseChoiceIndex(choiceIndex);
     }
 
-    // min 27 del video pero me salto por ahora, en caso de que funcione sin esto
+    public void ExitSiContador3()
+    {
+        if (AnimatorMnager.contador == 3)
+        {
+            ExitDialogueMode();
+        }
+    }
+
+    public void ExitSiContador4NOPersuadidoTutorial(Animator anim)   // NO termina conversacion definitivamente
+    {
+        if (AnimatorMnager.contador == 4 && (anim.GetBool("Persuadido") == false))
+
+        {
+            ExitDialogueModeAltX();
+        }
+    }
+
+    public void ExitSiContador4Persuadido(Animator anim)   // termina conversacion definitivamente
+    {
+        if (AnimatorMnager.contador == 4 && (anim.GetBool("Persuadido") == true))   
+
+        {
+            ExitDialogueMode();
+        }
+    }
+
+    public void ExitSiContador4()  // termina conversacion definitivamente
+    {
+        if (AnimatorMnager.contador == 4)
+        {
+            ExitDialogueMode();
+        }
+
+    }
+
+    /*
     private IEnumerator SelectFirstChoice() 
     {
         EventSystem.current.SetSelectedGameObject(null);
         yield return new WaitForEndOfFrame();
         EventSystem.current.SetSelectedGameObject(choices[0].gameObject);
-    } 
+    } */
 
 
-    //recordatorio revisar si al presionar en el personaje de nuevo se reinicia el dialogo min20 de video
-    //En vez del Dialogue Trigger esta el On Click Event
+    //recordatorio revisar si al presionar en el personaje de nuevo se reinicia el dialogo
+    //En vez de usar un Dialogue Trigger usamos el On Click Event
 }

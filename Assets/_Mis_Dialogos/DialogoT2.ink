@@ -4,17 +4,12 @@
 Estoy ocupado, qué sucede?
 * [Tienes una mala postura.]
     Oh vaya, no tenía idea... ¡Gracias!
--> DONE
+    * * [Adiós]
+    -> DONE
 * [Nada, vuelve a lo que hacías.]
     Está bien...
+    -> DONE
     /*    -> chosen("Postura")
      
         -> chosen("Nada")*/
-        
-
-
-
-
-
-
--> END
+    -> END

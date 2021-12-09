@@ -12,6 +12,7 @@ public class AnimatorMnager : MonoBehaviour
     public void PersuadidoTrue(Animator anim)
     {
         anim.SetBool("Persuadido", true);
+        Debug.Log("Persuadido");
     }
 
     public void PersuadidoToTrue3(Animator anim)   //Si la conversacion toma 3 presiones de boton para Success
@@ -19,12 +20,18 @@ public class AnimatorMnager : MonoBehaviour
         if (contador == 3)
         {
             PersuadidoTrue(anim);
+            Debug.Log("Persuadido");
         }
     }
 
-    public void TriggerFail(Animator anim)
+    public void TriggerFail2(Animator anim)  //  Si el contador es igual a 2
     {
-        anim.SetTrigger("Fail");
+        if (contador == 2)
+        {
+            anim.SetTrigger("Fail");
+            Debug.Log("Fail");
+        }
+        
     }
 
 
