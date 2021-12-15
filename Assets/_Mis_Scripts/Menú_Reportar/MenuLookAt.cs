@@ -1,20 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuLookAt : MonoBehaviour
+namespace _Mis_Scripts.Menú_Reportar
 {
-
-    [SerializeField] private Transform playerTransform;
-    // Start is called before the first frame update
-    void Start()
+    public class MenuLookAt : MonoBehaviour
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        transform.LookAt(playerTransform);
+        [SerializeField] private Transform playerTransform;
+        // Start is called before the first frame update
+
+        // Update is called once per frame
+        void Update()
+        {
+            transform.LookAt(playerTransform);
+        }
     }
 }

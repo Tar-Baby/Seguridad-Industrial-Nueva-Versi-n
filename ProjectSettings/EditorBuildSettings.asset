@@ -21,11 +21,17 @@ EditorBuildSettings:
     path: Assets/BNG Framework/Scenes/Vehicle Example.unity
     guid: d96233ee44d985d4fb8dc23a907c06eb
   - enabled: 0
-    path: "Assets/_Mis_Escenas/Interacci\xF3nVR.unity"
-    guid: 3fe014c36a369c94190d2dc399b8084a
+    path: Assets/_Mis_Escenas/SeleccionarTutorial.unity
+    guid: 549f3b224bf671c448450b30ebd97acd
   - enabled: 1
     path: Assets/_Mis_Escenas/TutorialVioleta.unity
     guid: a036db715b2611c41a016b2864819569
+  - enabled: 0
+    path: "Assets/_Mis_Escenas/Interacci\xF3nVR.unity"
+    guid: 3fe014c36a369c94190d2dc399b8084a
+  - enabled: 0
+    path: "Assets/_Mis_Escenas/Interacci\xF3nVR.unity"
+    guid: 3fe014c36a369c94190d2dc399b8084a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 65e7c026c3fcdb340b8274807536a35c,
       type: 2}
