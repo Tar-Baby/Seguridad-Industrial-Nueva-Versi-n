@@ -37,6 +37,11 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("Contador: " + AnimatorMnager.contador);
     }
 
+    public void AumentarInteracciones()
+    {
+        ActivacionPanelFinalOficina.interacciones++;
+    }
+
     private void Start()
     {
         dialogueIsPlaying = false;
@@ -72,7 +77,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
 
     }
-
+    
     public void ExitDialogueModeAltX()  // Puedo volver a interactuar con la persona, la X
     {
         ExitDialogueMode();
@@ -142,6 +147,7 @@ public class DialogueManager : MonoBehaviour
         {
             ExitDialogueMode();
             panelXinfo.SetActive(false);
+            AumentarInteracciones();
         }
     }
 
@@ -168,6 +174,7 @@ public class DialogueManager : MonoBehaviour
 
         {
             ExitDialogueMode();
+            AumentarInteracciones();
         }
     }
 
