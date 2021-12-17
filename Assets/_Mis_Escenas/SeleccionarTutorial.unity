@@ -3283,7 +3283,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "_Mis_Escenas/Interacci\xF3nVR"
+          m_StringArgument: "Interacci\xF3nVR"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1159454174
@@ -5618,7 +5618,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: _Mis_Escenas/TutorialVioleta
+          m_StringArgument: TutorialVioleta
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1966389113

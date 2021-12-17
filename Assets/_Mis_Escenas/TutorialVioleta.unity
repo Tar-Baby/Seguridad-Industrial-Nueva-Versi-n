@@ -2442,7 +2442,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &214641716
 PrefabInstance:
@@ -11642,7 +11642,7 @@ Transform:
   - {fileID: 1507000854}
   - {fileID: 945721693}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1172568372
 PrefabInstance:
@@ -11905,7 +11905,7 @@ Transform:
   - {fileID: 1407260333}
   - {fileID: 2049978920}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1203556135
 PrefabInstance:
@@ -15293,7 +15293,7 @@ RectTransform:
   - {fileID: 1426072373}
   - {fileID: 1658042521}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -27655,6 +27655,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 417183812}
+    - target: {fileID: 2045732490679422052, guid: 6ec88bfa9e5818648a9408e9b9097eec,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: SeleccionarTutorial
+      objectReference: {fileID: 0}
     - target: {fileID: 2045732490679422053, guid: 6ec88bfa9e5818648a9408e9b9097eec,
         type: 3}
       propertyPath: m_Pivot.x
