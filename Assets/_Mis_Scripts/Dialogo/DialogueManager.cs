@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] private GameObject panelXinfo;
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
     [SerializeField] private GameObject boxCollider;
@@ -133,6 +134,15 @@ public class DialogueManager : MonoBehaviour
     public void MakeChoice(int choiceIndex)
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
+    }
+
+    public void ExitSiContador3panelX()
+    {
+        if (AnimatorMnager.contador == 3)
+        {
+            ExitDialogueMode();
+            panelXinfo.SetActive(false);
+        }
     }
 
     public void ExitSiContador3()
