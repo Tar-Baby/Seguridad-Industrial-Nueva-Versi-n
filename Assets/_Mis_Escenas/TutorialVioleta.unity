@@ -6668,15 +6668,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734048169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.7022705, y: 3.7022705, z: 3.7022705}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 3.412457, y: 4.135215, z: 3.412457}
   m_Children: []
   m_Father: {fileID: 485958071}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -144}
+  m_AnchoredPosition: {x: 7, y: -159}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734048171
@@ -6699,7 +6699,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7f34d86b7c761fb4e85fab291e6b6291, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40c25c261d8759542bf22b3f680622a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8602,8 +8602,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.5
-  m_Text: "Algunas personas son m\xE1s dif\xEDciles\nde persuadir que otras. Procura
-    usar\nel argumento correcto para que\nte hagan caso, aqu\xED puedes intentarlo\nhasta
+  m_Text: "Algunas personas son m\xE1s dif\xEDciles\nde persuadir. Procura usar\nel
+    argumento correcto para que\nte hagan caso, aqu\xED puedes intentarlo\nhasta
     lograrlo. Pero durante la\ninspecci\xF3n tendr\xE1s solo una\n oportunidad para
     corregirlos.\n"
 --- !u!222 &896886366
@@ -9973,10 +9973,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.5
-  m_Text: "Si piensas que alguien est\xE1\nexpuesto a alg\xFAn Riesgo Ergon\xF3mico,\npuedes
-    dec\xEDrselo. Intenta persuadirlo\nseleccionando la opci\xF3n correcta\ncon el
-    Trigger Derecho o Izquierdo\ndurante una conversaci\xF3n.\nPresiona la X sobre
-    el panel verde \npara terminar la conversaci\xF3n."
+  m_Text: "Si alguien est\xE1 expuesto a alg\xFAn \nRiesgo Ergon\xF3mico, puedes
+    dec\xEDrselo.\n\nPresiona la X sobre el panel verde \npara terminar la conversaci\xF3n."
 --- !u!222 &1043706619
 CanvasRenderer:
   m_ObjectHideFlags: 0

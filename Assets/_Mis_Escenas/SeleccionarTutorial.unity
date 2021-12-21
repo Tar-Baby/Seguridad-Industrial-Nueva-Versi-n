@@ -559,7 +559,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.01, y: -0.037}
+  m_AnchoredPosition: {x: -0.106, y: -0.037}
   m_SizeDelta: {x: 1077.2, y: 539.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &225317231
@@ -589,14 +589,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 57
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Apunta a una puerta con el mando y presiona\n \"Gatillo Derecho\"o \"Gatillo
-    Izquierdo\""
+  m_Text: "Apunta a una puerta con el mando y presiona\n \"Gatillo Derecho\""
 --- !u!222 &225317232
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -632,7 +631,7 @@ RectTransform:
   m_GameObject: {fileID: 236960146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.0007996294}
-  m_LocalScale: {x: 0.51664877, y: 0.8866878, z: 0.70866996}
+  m_LocalScale: {x: 0.51664877, y: 0.65643275, z: 0.70866996}
   m_Children: []
   m_Father: {fileID: 2062225377}
   m_RootOrder: 2
@@ -662,7 +661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 40c25c261d8759542bf22b3f680622a9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 69a82d75b03b6794d9a2bd7b66218fdf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1175,7 +1174,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bienvenido, para moverte usa la palanca de tu control derecho.
+  m_Text: Bienvenido, para moverte usa la palanca de tu control izquierdo.
 --- !u!222 &396228488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4275,7 +4274,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bienvenido, para moverte usa la palanca de tu control derecho.
+  m_Text: Bienvenido, para moverte usa la palanca de tu control izquierdo.
 --- !u!222 &1570050469
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4760,13 +4759,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795488078}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.70867, y: 0.88668793, z: 0.70867}
   m_Children: []
   m_Father: {fileID: 1211684506}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.255}
