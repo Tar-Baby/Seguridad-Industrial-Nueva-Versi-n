@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] private GameObject panelXinfo;
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
     [SerializeField] private GameObject boxCollider;
@@ -34,6 +35,11 @@ public class DialogueManager : MonoBehaviour
     public void ImprimirContador()
     {
         Debug.Log("Contador: " + AnimatorMnager.contador);
+    }
+
+    public void AumentarInteracciones()
+    {
+        ActivacionPanelFinalOficina.interacciones++;
     }
 
     private void Start()
@@ -71,7 +77,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
 
     }
-
+    
     public void ExitDialogueModeAltX()  // Puedo volver a interactuar con la persona, la X
     {
         ExitDialogueMode();
@@ -135,6 +141,16 @@ public class DialogueManager : MonoBehaviour
         currentStory.ChooseChoiceIndex(choiceIndex);
     }
 
+    public void ExitSiContador3panelX()
+    {
+        if (AnimatorMnager.contador == 3)
+        {
+            ExitDialogueMode();
+            panelXinfo.SetActive(false);
+            AumentarInteracciones();
+        }
+    }
+
     public void ExitSiContador3()
     {
         if (AnimatorMnager.contador == 3)
@@ -158,6 +174,7 @@ public class DialogueManager : MonoBehaviour
 
         {
             ExitDialogueMode();
+            AumentarInteracciones();
         }
     }
 

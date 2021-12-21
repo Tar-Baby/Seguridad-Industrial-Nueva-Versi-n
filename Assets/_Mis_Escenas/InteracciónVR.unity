@@ -508,6 +508,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CargarEscena
       objectReference: {fileID: 0}
+    - target: {fileID: 2045732490679422052, guid: 6ec88bfa9e5818648a9408e9b9097eec,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: SeleccionarTutorial
+      objectReference: {fileID: 0}
     - target: {fileID: 2045732490679422053, guid: 6ec88bfa9e5818648a9408e9b9097eec,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4036,6 +4041,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.00000001545428
       objectReference: {fileID: 0}
+    - target: {fileID: 65597925831437608, guid: 04f76fdbec85bf54dbe4f16fdd6b2323,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04f76fdbec85bf54dbe4f16fdd6b2323, type: 3}
 --- !u!4 &448592402 stripped
@@ -5826,6 +5836,11 @@ PrefabInstance:
     - target: {fileID: 4831380133548944, guid: 04f76fdbec85bf54dbe4f16fdd6b2323, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.00000001545428
+      objectReference: {fileID: 0}
+    - target: {fileID: 65597925831437608, guid: 04f76fdbec85bf54dbe4f16fdd6b2323,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04f76fdbec85bf54dbe4f16fdd6b2323, type: 3}
@@ -14308,6 +14323,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.000000015454331
       objectReference: {fileID: 0}
+    - target: {fileID: 65597925831437608, guid: 04f76fdbec85bf54dbe4f16fdd6b2323,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04f76fdbec85bf54dbe4f16fdd6b2323, type: 3}
 --- !u!4 &1710712134 stripped
@@ -17818,6 +17838,11 @@ PrefabInstance:
     - target: {fileID: 4831380133548944, guid: 04f76fdbec85bf54dbe4f16fdd6b2323, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 65597925831437608, guid: 04f76fdbec85bf54dbe4f16fdd6b2323,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04f76fdbec85bf54dbe4f16fdd6b2323, type: 3}
