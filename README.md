@@ -1,2 +1,2 @@
-# Seguridad-Industrial-Nueva-Versi-n
+# Seguridad-Industrial-Nueva-Versión
 Safety is still first!
