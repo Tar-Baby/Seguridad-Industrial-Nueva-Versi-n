@@ -16,7 +16,7 @@ Tutorial
 
 ## Créditos
 Diseño - Violeta Mediavilla y Nino Ibarra<br />
-Programación - Violeta Mediavilla y Nino Ibarra
-Asesoría en normativas de seguridad - Pablo Dávila
-Supervisión de proyecto - Mark Bueno
+Programación - Violeta Mediavilla y Nino Ibarra<br />
+Asesoría en normativas de seguridad - Pablo Dávila<br />
+Supervisión de proyecto - Mark Bueno<br />
 Props y Assets en 3D - Unity Asset Store
