@@ -13,3 +13,10 @@ Entornos industriales
 Entornos administrativos
 
 Tutorial
+
+## Créditos
+Diseño - Violeta Mediavilla y Nino Ibarra
+Programación - Violeta Mediavilla y Nino Ibarra
+Asesoría en normativas de seguridad - Pablo Dávila
+Supervisión de proyecto - Mark Bueno
+Props y Assets en 3D - Unity Asset Store
