@@ -1,2 +1,4 @@
 # Seguridad-Industrial-Nueva-Versión
-Safety is still first!
+Aprende sobre las normas de seguridad industrial con esta experiencia en Realidad Virtual :D
+
+# Echa un vistazo
