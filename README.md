@@ -15,7 +15,7 @@ Entornos administrativos
 Tutorial
 
 ## Créditos
-Diseño - Violeta Mediavilla y Nino Ibarra
+Diseño - Violeta Mediavilla y Nino Ibarra__
 Programación - Violeta Mediavilla y Nino Ibarra
 Asesoría en normativas de seguridad - Pablo Dávila
 Supervisión de proyecto - Mark Bueno
