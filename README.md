@@ -8,7 +8,7 @@ Proyecto realizado para la clase de Programación para Diseño y en colaboració
 Descargar proyecto de Unity, compilar el apk e instalarlo en el visor (Desarrollado y probado originalmente para Oculus Quest 2).
 
 ## Echa un vistazo
-Recorrido por el Tutorial, entornos industriales y entornos administrativos
+Recorrido por el tutorial, entornos industriales y entornos administrativos
 
 
 ## Créditos
