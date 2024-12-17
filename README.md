@@ -8,11 +8,8 @@ Proyecto realizado para la clase de Programación para Diseño y en colaboració
 Descargar proyecto de Unity, compilar el apk e instalarlo en el visor (Desarrollado y probado originalmente para Oculus Quest 2).
 
 ## Echa un vistazo
-Entornos industriales
+Recorrido por el Tutorial, entornos industriales y entornos administrativos
 
-Entornos administrativos
-
-Tutorial
 
 ## Créditos
 Diseño - Violeta Mediavilla y Nino Ibarra<br />
