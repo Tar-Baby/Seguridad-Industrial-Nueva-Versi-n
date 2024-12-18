@@ -1,4 +1,4 @@
-# Safety First!
+![image](https://github.com/user-attachments/assets/d5006c08-4279-43e1-a6b2-98b77ebd8027)# Safety First!
 Aprende sobre las normas de seguridad industrial con esta experiencia en Realidad Virtual :D
 
 ## Metodología
@@ -11,6 +11,9 @@ Descargar proyecto de Unity, compilar el apk e instalarlo en el visor (Desarroll
 Recorrido por el tutorial, entornos industriales y entornos administrativos. Haz click en la imagen.
 
 [<img src="https://github.com/user-attachments/assets/7e0023b2-49d3-4f45-aab3-b0ead147ec24" width="70%" />](https://www.youtube.com/watch?v=rxwWQaQ9mAI&t=16s)
+[<img src="https://github.com/user-attachments/assets/7c6c8d6c-ef95-40c8-93ea-32839b935912" width="70%") />] (https://www.youtube.com/watch?v=rxwWQaQ9mAI&t=16s)
+![captura3](https://github.com/user-attachments/assets/52a36035-5eb6-4f6f-9219-92faa6e22304)
+
 
 
 ## Créditos
