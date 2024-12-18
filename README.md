@@ -10,7 +10,9 @@ Descargar proyecto de Unity, compilar el apk e instalarlo en el visor (Desarroll
 ## Echa un vistazo
 Recorrido por el tutorial, entornos industriales y entornos administrativos. Haz click a la imagen.
 
-[![video demostración](https://github.com/user-attachments/assets/7e0023b2-49d3-4f45-aab3-b0ead147ec24)](https://www.youtube.com/watch?v=rxwWQaQ9mAI&t=16s)
+[![video demostración](<img src="https://github.com/user-attachments/assets/7e0023b2-49d3-4f45-aab3-b0ead147ec24" width="30%" />)](https://www.youtube.com/watch?v=rxwWQaQ9mAI&t=16s)
+
+    //<img src="https://user-images.githubusercontent.com/40581019/146621466-d9b26696-0bde-4d69-976b-b7b312e6a200.jpg"  width="30%" />
 
 
 ## Créditos
