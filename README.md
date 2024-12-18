@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d5006c08-4279-43e1-a6b2-98b77ebd8027)# Safety First!
+# Safety First!
 Aprende sobre las normas de seguridad industrial con esta experiencia en Realidad Virtual :D
 
 ## Metodología
